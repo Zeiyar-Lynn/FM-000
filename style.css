@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
 /* Fundamental */
@@ -16,7 +15,7 @@ main{
 }
 
 
-/* Colors and Fonts */
+/* Colors and Font-sizes*/
 body{
     background-color: hsl(233, 47%, 7%)
 }
@@ -42,9 +41,11 @@ h2{
     position: relative;
 }
 
-img{
+#image{
+    background-image: url(images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100%;
-    width: 100%;
 }
 
 #overlay{
@@ -117,7 +118,7 @@ img{
         min-width: 0;
     }
 
-    /* Fonts */
+    /* Fonts sizes */
     h1{
         font-size: 1.625rem;
     }
@@ -159,8 +160,7 @@ img{
 
     #image{
         display: block;
-        background: url(images/image-header-mobile.jpg) no-repeat;
-        height: 100%;
+        background: url(images/image-header-mobile.jpg);
         background-size: cover;
     }
 
@@ -168,7 +168,6 @@ img{
     .stats{
         flex-direction: column;
         margin: 1rem 0;
-        /* margin-bottom: 3rem; */
     }
 
     .stats p{
